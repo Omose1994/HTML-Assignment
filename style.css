@@ -1,0 +1,60 @@
+.text {
+    color: #264653;   
+}
+
+body {
+    background-color: #e8e8e4;
+    margin: 100px 200px 0px 200px;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.buttons {
+    color: purple;
+    font-size: 100px;
+    padding: 10px 10px 10px 10px;
+    float: right; 
+    border-radius: 20px;
+    border-color: #FFC482;
+    margin-top: 0px 20px;   
+}
+
+.buttons:hover {
+    color:red;
+    border-color:red;
+}
+
+h3 {
+   font-family: cursive;
+   color: #03045e;
+}
+
+
+table {
+    border-collapse:collapse; 
+    width: 100%;
+    border: 1px solid black;
+
+}
+
+
+th,td {
+    padding: 8px;
+    text-align: center; 
+    border-bottom: 1px solid #000000;
+    border: 1px solid #000000;
+}
+
+#origin {
+    color: cornflowerblue;
+}
+
+.food {
+    display:flex;
+    justify-content: space-around;
+}
+
+#rice {
+    margin-right: 300px;
+    margin-left: 300px;
+}
